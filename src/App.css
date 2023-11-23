@@ -1,0 +1,93 @@
+#root {
+  filter: invert(0);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: self-start;
+  padding: 40px;
+  justify-content: center;
+  background-color: rgb(26, 23, 23);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.form {
+  display: grid;
+  width: 80vw;
+}
+
+input {
+  border: 0px;
+  outline: 0px;
+  padding: 20px;
+  width: calc(100% - 40px);
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
+
+input:hover {
+  color: white;
+}
+
+fieldset {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid rgb(115, 115, 115);
+}
+
+button {
+  margin: 0px auto;
+  width: 90%;
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(225, 84, 32);
+  padding: 20px;
+  border: 0px;
+  outline: 0px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+legend {
+  padding: 0px 10px;
+  font-weight: 600;
+  font-size: small;
+  color: rgb(166, 166, 166);
+}
+
+table {
+  background-color: black;
+  width: 80vw;
+  outline: 1px solid black;
+  padding: 10px;
+  display: grid;
+  margin-top: 10px;
+}
+
+th {
+  width: calc(100% - 20px);
+  padding: 10px;
+  background-color: rgb(30, 30, 30);
+  color: white;
+}
+
+tr {
+  width: calc(100% - 20px);
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+}
+
+td {
+  width: calc(100% - 20px);
+  padding: 10px;
+  background-color: rgb(49, 49, 49);
+  color: white;
+}
